@@ -1,0 +1,31 @@
+.header {
+    text-align: center;
+    color: blue;
+    border: 2px dashed blue;
+    border-radius: 10px;
+    margin: 50px auto 20px auto;
+    width: 300px;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 8px;
+    width: 100px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto 30px auto;
+}
+
+.example-full-width {
+    width: 100%;
+}

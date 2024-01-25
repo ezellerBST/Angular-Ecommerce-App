@@ -1,0 +1,16 @@
+<h1>Royal Kingdom</h1>
+<hr>
+<h2>Farm</h2>
+<img src="https://i.ytimg.com/vi/TPxJtKob7Js/maxresdefault.jpg">
+<h3>Regenerating the land and your soul</h3>
+<div class="card-container">
+    <div *ngFor="let product of productList.slice(0, 3)">
+        <mat-card class="example-card">
+            <img [src]="product.imageUrl" alt="{{product.productName}}" style="width: 100%; object-fit: cover;">
+            <mat-card-content>
+                <br>
+                <p>{{product.productName}}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

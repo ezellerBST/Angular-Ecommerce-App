@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    color: blue;
+    border: 2px dashed blue;
+    border-radius: 10px;
+    margin: 50px auto 10px auto;
+    width: 400px;
+}
+
+button {
+    display: block;
+    justify-content: center;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 8px;
+    width: 100px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 100px auto auto 20px;
+    overflow-x: scroll;
+    float: right;
+    max-width: 100%;
+}
+
+.container {
+    display: inline-flex;
+    float: left;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto 30px auto;
+}
+
+.example-full-width {
+    width: 100%;
+}

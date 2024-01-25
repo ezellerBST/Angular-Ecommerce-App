@@ -1,0 +1,39 @@
+.header {
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 50px auto 20px 0;
+    width: 350px;
+  }
+  
+  img {
+    width: 400px;
+    height: 300px;
+    margin: 100px 20px 0 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+  }
+  
+  .left-container {
+    float: left;
+  }
+  
+  .example-card {
+    margin-top: 20px;
+  }
+  
+  mat-card-content {
+    border: 3px solid aqua;
+    border-radius: 10px;
+  }
+  
+  a {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  

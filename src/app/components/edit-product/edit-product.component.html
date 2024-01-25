@@ -1,0 +1,39 @@
+<div class="container">  
+    <form class="example-form" #form="ngForm" (ngSubmit)="onSubmit()">
+        <h1 class="header">Edit {{currentProduct.productName}}</h1>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Product Name</mat-label>
+            <input matInput placeholder="" type="text" name="name" [(ngModel)]="currentProduct.productName" required>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Description</mat-label>
+            <textarea matInput placeholder="Ex: Best bacon you ever tasted" name="description"
+                [(ngModel)]="currentProduct.description" required></textarea>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Price</mat-label>
+            <input matInput placeholder="" type="number" name="price" [(ngModel)]="currentProduct.price" required>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Image URL</mat-label>
+            <input matInput placeholder="" type="text" name="image" [(ngModel)]="currentProduct.imageUrl" required>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Pickup On Farm</mat-label>
+            <input matInput placeholder="Ex: Yes or No" type="text" name="pickup"
+                [(ngModel)]="currentProduct.farmPickUp" required>
+        </mat-form-field>
+        <div>
+            <button type="submit">Submit</button>
+            <button routerLink="/products">Back</button>
+        </div>
+    </form>
+    <img src="{{currentProduct.imageUrl}}">
+</div>
+
+

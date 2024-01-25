@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Pastured 1lb Ground Beef",
+      "description": "The best beef in the Midwest",
+      "price": 7,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0002/4730/0137/products/image_1a458e51-0db2-4472-af1b-76f6662dc1cf_640x.jpg?v=1685914961",
+      "farmPickUp": "No"
+    },
+    {
+      "id": 2,
+      "productName": "Pastured 10lbs Pork Chops",
+      "description": "Straight from the happiest pigs on Earth",
+      "price": 20,
+      "imageUrl": "https://img.freepik.com/free-photo/front-view-fresh-meat-slices-raw-meat-with-greens-tomatoes-dark-background-kitchen-meal-food-cow-food-dish-salad-barbecue-animal_140725-144963.jpg?w=826&t=st=1706151943~exp=1706152543~hmac=0acb779046e7b54180cde1fc8241c3062d5c14097c571a3db7d5f840275793bf",
+      "farmPickUp": "No"
+    },
+    {
+      "id": 3,
+      "productName": "Pastured Whole Chicken",
+      "description": "Changing the chicken game one clucker at a time",
+      "price": 6,
+      "imageUrl": "https://img.freepik.com/free-photo/from-grilled-chicken-with-rosemary_23-2147765392.jpg?w=826&t=st=1706152069~exp=1706152669~hmac=428cf2db0e95413d989a3a5dd5105223a5fb5f1318f79dad8f8fc63df0613ee7",
+      "farmPickUp": "Yes"
+    },
+    {
+      "id": 4,
+      "productName": "Pastured Eggs - 1 Dozen",
+      "description": "Corn and soy free with sunny yellow yolks",
+      "price": 5,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9NemMYZcSb8Ig55bG9n2z-Tf_So-kfR41g6mKO55SlMHabQMvOACr_hgEzWWqODo0k3NB6BMQNb4&usqp=CAU&ec=48600112",
+      "farmPickUp": "Yes"
+    },
+    {
+      "id": 5,
+      "productName": "Loaf Sourdough Bread",
+      "description": "The best bread west of the Mississippi",
+      "price": 5,
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/2020-05/french-style-country-loaf.jpg",
+      "farmPickUp": "No"
+    },
+    {
+      "id": 6,
+      "productName": "Raw Milk - 1 gallon",
+      "description": "Straight from the udder to our fridge",
+      "price": 10,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2oegld9VQtWqlGdCnbGTO2V8gOkZS7GBADaeYxm3PECOfnwSgTZNte9Pw4qbAwjnsSXgKa3u2nEw&usqp=CAU&ec=48600112",
+      "farmPickUp": "Yes"
+    }
+  ]
+}

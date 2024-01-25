@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="left-container">
+        <h1 class="header">{{currentProduct.productName}}</h1>
+        <mat-card class="example-card">
+            <mat-card-content>
+                <p><strong>Description: </strong>{{currentProduct.description}}</p>
+                <p><strong>Pickup on Farm: </strong>{{currentProduct.farmPickUp}}</p>
+                <p><strong>Price: $</strong>{{currentProduct.price}}</p>
+            </mat-card-content>
+        </mat-card>
+        <div class="example-button-row">
+            <a mat-raised-button routerLink="/products">Back</a>
+            <a color="primary" mat-raised-button [routerLink]='["/edit", currentProduct.id]' target="_self">Edit</a>
+            <a color="warn" mat-raised-button (click)="onDelete(currentProduct.id)" target="_self">Delete</a>
+        </div>
+    </div>
+    <div class="right-container">
+        <img src="{{currentProduct.imageUrl}}">
+    </div>
+</div>
