@@ -1,27 +1,65 @@
-# L07Assignment
+<h1 align="center">
+  <img src="https://github.com/ezellerBST/Angular-Ecommerce-App/blob/main/src/assets/RKF.png" alt="Logo" height="200" width="300">
+  <br>
+  E-Commerce App
+  <br>
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+<h4 align="center">A fictional company storefront for E-commerce</h4>
 
-## Development server
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#acknowledgements">Acknowledgements</a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br>
+<div align="center">
+    <img src="https://github.com/ezellerBST/Angular-Ecommerce-App/blob/main/src/assets/RKF%20HomePage.png?raw=true" alt="homePage" width="600">
+    <img src="https://github.com/ezellerBST/Angular-Ecommerce-App/blob/main/src/assets/RKF%20Products.png" alt="products" width="600">
+</div>
 
-## Code scaffolding
+## Overview
+Welcome to my Angular E-Commerce App project repository! This project was built using Angular and Angular Material UI with a JSON-SERVER implementation for mock backend data storage. Feel free to explore the code, contribute, and make this project even better.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Key Features
+* Home/About pages to mock business storefront
+* Collapsible navbar
+* Sorting products by name/price
+* Instant CRUD operations on products with up to date retrieval
+* JSON-SERVER backend
 
-## Build
+## How to Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. 
+<br><br>
+From your command line: create a project directory on your local computer where you want to save the the app files then run steps below
 
-## Running unit tests
+```bash
+# Clone this repository in newly created project directory
+$ git clone https://github.com/ezellerBST/Angular-Ecommerce-App.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Go into the repository
+$ cd angular-ecommerce-app
 
-## Running end-to-end tests
+# Install dependencies
+$ npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Run the frontend portion of app
+$ npm start
 
-## Further help
+#Open a separate terminal/command line and navigate to newly created project directory to run simultaneous JSON-SERVER
+$ json-server --watch products.json
+```
+## Tech Stack
+* <a href="https://angular.io/" target="_blank">Angular</a>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Acknowledgements
+* Bethel School of Technology
+* John Pu'e
+
+<br>
+<h4 align="center">Happy coding! 🚀</h4>
